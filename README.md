@@ -10,12 +10,14 @@ MySQL (can be adapted)
 Maven
 
 REST API Endpoints
-Method	Endpoint	Description
-GET	/products	Fetch all products
-GET	/products/{id}	Get product by ID
-POST	/products	Add new product
-PUT	/products/{id}	Update product
-DELETE	/products/{id}	Delete product
+| Method | Endpoint         | Description        |
+| ------ | ---------------- | ------------------ |
+| GET    | `/products`      | Fetch all products |
+| GET    | `/products/{id}` | Get product by ID  |
+| POST   | `/products`      | Add new product    |
+| PUT    | `/products/{id}` | Update product     |
+| DELETE | `/products/{id}` | Delete product     |
+
 
 💻 Frontend - React + Vite
 🔧 Technologies Used
